@@ -1,0 +1,24 @@
+{
+  "name": "webpack-project",
+  "version": "1.0.0",
+  "description": "create standalone webpack web application",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack -d --watch",
+    "prod": "webpack -p"
+  },
+  "keywords": [
+    "webpack"
+  ],
+  "author": "Soe Lin Tun",
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "^0.27.3",
+    "extract-text-webpack-plugin": "^2.1.0",
+    "html-webpack-plugin": "^2.28.0",
+    "node-sass": "^4.5.1",
+    "sass-loader": "^6.0.3",
+    "style-loader": "^0.16.0",
+    "webpack": "^2.3.2"
+  }
+}
